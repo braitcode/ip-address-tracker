@@ -118,6 +118,7 @@ const Hero = () => {
           center={[ipData.latitude, ipData.longitude]} // Default to IP location
           zoom={13}
           style={{ height: "650px", width: "100%" }}
+          zoomControl={false}
         >
             <MapComponent center={[ipData.latitude, ipData.longitude]} />
           <TileLayer
